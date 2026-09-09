@@ -61,6 +61,16 @@ For a small CPU smoke reproduction:
 DEVICE=cpu bash scripts/reproduce_small.sh
 ```
 
+To reproduce the complete 150-run matrix sequentially on one GPU:
+
+```bash
+DEVICE=cuda:0 bash scripts/run_matrix.sh
+```
+
+The command is restart-safe because completed runs are skipped. The full matrix
+is much more expensive than the smoke test. Multi-GPU users can schedule
+`scripts/run_one.sh` over the grid in `configs/heat_loop.json`.
+
 The full experiment grid is documented in `configs/heat_loop.json`. Generated
 datasets, checkpoints, and raw outputs are intentionally excluded from Git.
 Aggregated metrics are provided in `results/summary/aggregate.json`.

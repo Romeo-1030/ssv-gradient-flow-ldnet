@@ -6,3 +6,5 @@ data/*.npz
 outputs/
 *.pt
 *.log
+
+data/*.json
