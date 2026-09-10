@@ -1,0 +1,18 @@
+{
+  "checkpoint": "learned_ssv_energy_n32_seed0.pt",
+  "mode": "learned_ssv_energy",
+  "seed": 0,
+  "num_train": 32,
+  "nx": 256,
+  "xmax": 16.0,
+  "train_tmax": 0.5,
+  "test_tmax": 10.0,
+  "rep_dim": 24,
+  "latent": 16,
+  "width": 128,
+  "decoder_modes": 33,
+  "window": 4.5,
+  "alpha": 0.4026147127151489,
+  "beta": 0.42591801285743713,
+  "selection": "Fixed n=32, seed=0 checkpoint; not selected post hoc across seeds."
+}

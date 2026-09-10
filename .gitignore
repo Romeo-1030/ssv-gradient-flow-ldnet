@@ -7,4 +7,7 @@ outputs/
 *.pt
 *.log
 
+# One small, fixed-seed checkpoint is part of the reproducible release.
+!artifacts/pretrained/*.pt
+
 data/*.json

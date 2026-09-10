@@ -55,6 +55,29 @@ bash scripts/run_one.sh learned_ssv_energy 32 0 cuda:0
 pytest -q
 ```
 
+## Use the pretrained model (no training)
+
+The repository includes the fixed `n=32, seed=0` learned-SSV + energy checkpoint.
+Inference automatically uses a GPU when available and otherwise runs on CPU:
+
+```bash
+python scripts/predict.py
+```
+
+This writes `prediction.npz`, `metrics.json`, and `rollout.png` under
+`outputs/inference_demo/`. For your own initial condition on the released
+256-point grid, pass a `(256,)` NumPy array or an NPZ file:
+
+```bash
+python scripts/predict.py --input path/to/u0.npy --device cpu
+```
+
+The bundled default Gaussian also reports errors against its analytic heat
+solution. User-provided initial conditions produce predictions only. The
+checkpoint is fixed seed 0, not a post-hoc best-seed selection.
+
+## Train from scratch
+
 For a small CPU smoke reproduction:
 
 ```bash
