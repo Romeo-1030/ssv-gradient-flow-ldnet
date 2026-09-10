@@ -73,7 +73,8 @@ python scripts/predict.py --input path/to/u0.npy --device cpu
 ```
 
 The bundled default Gaussian also reports errors against its analytic heat
-solution. User-provided initial conditions produce predictions only. The
+solution, including the full `RMSE(t) / RMS(u0)` curve, its extrapolation
+average, and its final-time value. User-provided initial conditions produce predictions only. The
 checkpoint is fixed seed 0, not a post-hoc best-seed selection.
 
 ## Train from scratch

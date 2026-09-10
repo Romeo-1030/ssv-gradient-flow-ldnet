@@ -49,8 +49,11 @@ def main():
         amp,center,width=exact_params; var=width**2+2.*t_np[:,None]; truth=amp*width/np.sqrt(var)*np.exp(-.5*(x_np[None]-center)**2/var)
         mask=np.abs(x_np[None])<=4.5*np.sqrt(1.+t_np[:,None]); err2=((pred_np-truth)**2*mask).sum(1)
         rel=np.sqrt(err2/np.maximum((truth**2*mask).sum(1),1e-12)); fixed=np.sqrt(err2/mask.sum(1))/np.sqrt(np.mean(u0_np**2))
-        metrics.update({"observed_window_mean_relrmse":float(rel[t_np<=.5+1e-7].mean()),"extrapolation_mean_fixed_scale_error":float(fixed[t_np>.5+1e-7].mean()),"final_relrmse":float(rel[-1])})
-    a.out_dir.mkdir(parents=True,exist_ok=True); np.savez_compressed(a.out_dir/"prediction.npz",x=x_np,t=t_np,u0=u0_np,prediction=pred_np); (a.out_dir/"metrics.json").write_text(json.dumps(metrics,indent=2)+"\n")
+        metrics.update({"observed_window_mean_relrmse":float(rel[t_np<=.5+1e-7].mean()),"extrapolation_mean_rmse_over_rms_u0":float(fixed[t_np>.5+1e-7].mean()),"final_rmse_over_rms_u0":float(fixed[-1]),"final_relrmse":float(rel[-1])})
+    a.out_dir.mkdir(parents=True,exist_ok=True)
+    arrays={"x":x_np,"t":t_np,"u0":u0_np,"prediction":pred_np}
+    if truth is not None: arrays.update({"truth":truth,"relrmse_vs_time":rel,"rmse_over_rms_u0_vs_time":fixed})
+    np.savez_compressed(a.out_dir/"prediction.npz",**arrays); (a.out_dir/"metrics.json").write_text(json.dumps(metrics,indent=2)+"\n")
     ids=np.unique(np.round(np.linspace(0,a.nt-1,5)).astype(int)); fig,axes=plt.subplots(1,len(ids),figsize=(3.1*len(ids),2.8),sharey=True); axes=np.atleast_1d(axes)
     for ax,j in zip(axes,ids):
         if truth is not None: ax.plot(x_np,truth[j],"k--",lw=1.5,label="exact")
