@@ -48,7 +48,9 @@ def main():
     if exact_params is not None:
         amp,center,width=exact_params; var=width**2+2.*t_np[:,None]; truth=amp*width/np.sqrt(var)*np.exp(-.5*(x_np[None]-center)**2/var)
         mask=np.abs(x_np[None])<=4.5*np.sqrt(1.+t_np[:,None]); err2=((pred_np-truth)**2*mask).sum(1)
-        rel=np.sqrt(err2/np.maximum((truth**2*mask).sum(1),1e-12)); fixed=np.sqrt(err2/mask.sum(1))/np.sqrt(np.mean(u0_np**2))
+        rel=np.sqrt(err2/np.maximum((truth**2*mask).sum(1),1e-12))
+        rms_u0=np.sqrt((u0_np**2*mask[0]).sum()/mask[0].sum())
+        fixed=np.sqrt(err2/mask.sum(1))/rms_u0
         metrics.update({"observed_window_mean_relrmse":float(rel[t_np<=.5+1e-7].mean()),"extrapolation_mean_rmse_over_rms_u0":float(fixed[t_np>.5+1e-7].mean()),"final_rmse_over_rms_u0":float(fixed[-1]),"final_relrmse":float(rel[-1])})
     a.out_dir.mkdir(parents=True,exist_ok=True)
     arrays={"x":x_np,"t":t_np,"u0":u0_np,"prediction":pred_np}
