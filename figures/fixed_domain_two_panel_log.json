@@ -1,0 +1,42 @@
+{
+  "LDNet": {
+    "observed_mean_percent": 1.70620596408844,
+    "observed_std_percent": 0.0967601090669632,
+    "extrapolation_mean_percent": 238.33590698242188,
+    "extrapolation_std_percent": 81.92085266113281,
+    "final_mean_percent": 528.4126586914062,
+    "final_std_percent": 252.13836669921875
+  },
+  "LDNet + learned SSV": {
+    "observed_mean_percent": 2.0325369834899902,
+    "observed_std_percent": 0.04351244494318962,
+    "extrapolation_mean_percent": 4.480467796325684,
+    "extrapolation_std_percent": 0.8409043550491333,
+    "final_mean_percent": 6.807886600494385,
+    "final_std_percent": 1.4370237588882446
+  },
+  "LDNet + learned SSV + energy": {
+    "observed_mean_percent": 2.05826997756958,
+    "observed_std_percent": 0.05212773010134697,
+    "extrapolation_mean_percent": 4.112720489501953,
+    "extrapolation_std_percent": 0.9012881517410278,
+    "final_mean_percent": 6.1210503578186035,
+    "final_std_percent": 1.5144578218460083
+  },
+  "LDNet + oracle SSV": {
+    "observed_mean_percent": 2.0407557487487793,
+    "observed_std_percent": 0.04655170068144798,
+    "extrapolation_mean_percent": 4.482378959655762,
+    "extrapolation_std_percent": 0.8757618069648743,
+    "final_mean_percent": 6.8236260414123535,
+    "final_std_percent": 1.5056127309799194
+  },
+  "LDNet + oracle SSV + energy": {
+    "observed_mean_percent": 2.064314842224121,
+    "observed_std_percent": 0.05301216244697571,
+    "extrapolation_mean_percent": 4.090047359466553,
+    "extrapolation_std_percent": 0.8969215750694275,
+    "final_mean_percent": 6.093403339385986,
+    "final_std_percent": 1.508555293083191
+  }
+}

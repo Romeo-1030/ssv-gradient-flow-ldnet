@@ -1,122 +1,72 @@
-# SSV-GF-LDNet
+# Self-Similar LDNet with Local Energy
 
-Learning self-similar representations and local gradient-flow energies for
-data-efficient, long-time PDE prediction.
+Anonymous reproduction code for sparse-frame heat-equation extrapolation.
+The release follows the final3000 experiment: five methods, five matched seeds,
+32 training trajectories, and three observed frames at 0, 0.25, 0.5.
 
-The prototype studies a 1D heat equation on a large-domain approximation of
-the real line. During training, the model receives initial fields and three
-observed frames only. It is **not** given the PDE right-hand side, analytic
-energy, Gaussian generation parameters, or the theoretical similarity
-exponents.
-
-## Model
-
-The encoder-free shifted LDNet starts from `z_{-1}=0`. A learned initial-field
-representation conditions the latent dynamics, and a continuous RBF decoder
-returns the transformed field. For learned SSV models,
-
-```text
-xi = x / (1+t)^alpha
-tau = log(1+t)
-w  = (1+t)^beta u
-```
-
-The optional local energy network learns `e_psi(w, w_xi)` and regularizes
-
-```text
-w_tau - alpha * xi * w_xi - beta * w = -delta E_psi / delta w.
-```
-
-## Main comparison
-
-- Physical LDNet
-- Physical LDNet + learned energy
-- Learned SSV LDNet
-- Learned SSV LDNet + learned energy
-- Hand-designed SSV oracle, with and without learned energy
-
-All comparisons use nested training sets, a fixed validation/test split,
-three observed times (`0`, `0.25`, `0.5`), and five matched seeds.
-
-![Main result](figures/final_two_panel_log.png)
-
-The left panel reports RelRMSE inside the observed time window. The right panel
-uses `RMSE / RMS(u0)`, whose denominator remains fixed during extrapolation.
-
-## Quick start
-
+Run commands from this directory with Python 3.10+:
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-mkdir -p data
-python scripts/generate_data.py --out data/single_gaussian_heat.npz
-bash scripts/run_one.sh learned_ssv_energy 32 0 cuda:0
-pytest -q
+python -m pip install -r requirements.txt
+python scripts/generate_data.py --out data/single_gaussian_heat_fixed_domain_v1.npz
+python scripts/plot.py
 ```
+The compact `results/summary/aggregate.json` contains all 25 runs, 201-point
+error curves, selected epochs, and mean/population standard deviations.
+Plotting this file requires neither data nor trained LDNet checkpoints.
 
-## Use the pretrained model (no training)
-
-The repository includes the fixed `n=32, seed=0` learned-SSV + energy checkpoint.
-Inference automatically uses a GPU when available and otherwise runs on CPU:
-
+To repeat training on GPU 0 (each command trains five seeds):
 ```bash
-python scripts/predict.py
+bash scripts/run_final3000_protocol.sh 0 physical
+bash scripts/run_final3000_protocol.sh 0 learned_ssv
+bash scripts/run_final3000_protocol.sh 0 learned_ssv_energy
+bash scripts/run_final3000_protocol.sh 0 oracle_ssv
+bash scripts/run_final3000_protocol.sh 0 oracle_ssv_energy
+python scripts/summarize.py
+python scripts/plot.py
+python scripts/plot_latest_model_shapes.py
+python scripts/plot_final_training_diagnostics.py
 ```
+Set `PYTHON` to select a Python executable. Data and full training outputs are
+ignored by Git. The supplied `artifacts/pretrained/scale.pt` is the original
+selected scale checkpoint; it is frozen in both learned-SSV methods.
+Full final checkpoints are retained locally under
+`outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine`.
 
-This writes `prediction.npz`, `metrics.json`, and `rollout.png` under
-`outputs/inference_demo/`. For your own initial condition on the released
-256-point grid, pass a `(256,)` NumPy array or an NPZ file:
-
+Optional scale refitting:
 ```bash
-python scripts/predict.py --input path/to/u0.npy --device cpu
+python scripts/pretrain_scale.py
+python scripts/train.py --data data/single_gaussian_heat_fixed_domain_v1.npz --out_dir outputs/refit_run --mode learned_ssv --scale_checkpoint outputs/scale_refit/selected_model.pt
 ```
+The scale pretraining entry point is reconstructed from the reported loss.
+The original pretraining source was not located; its exact optimizer and
+initialization cannot be established from the retained selection records.
+Refitting therefore does not promise the original selected checkpoint.
+The supplied checkpoint has alpha=0.5001377463 and beta=0.4996300638.
 
-The bundled default Gaussian also reports errors against its analytic heat
-solution, including the full `RMSE(t) / RMS(u0)` curve, its extrapolation
-average, and its final-time value. User-provided initial conditions produce predictions only. The
-checkpoint is fixed seed 0, not a post-hoc best-seed selection.
+The analytic data have shape (160, 201, 256) on [-16,16] × [0,10].
+A permutation with seed 123 defines 96 training candidates, 32 validation
+and 32 test trajectories; training uses the first 32 candidates for every seed.
+Inputs are Gaussian parameters (A,c,sigma). Dynamics use shifted initialization,
+Forward Euler with physical grid spacing 0.05 (or its transformed clock),
+latent dimension 16 and width 128. The continuous Fourier decoder has 16
+frequencies plus its constant coefficient. Training uses AdamW, weight decay
+1e-6, 3000 steps, cosine learning rate 1e-3 to 1e-5, and gradient clipping at 5.
 
-## Train from scratch
+Implementation details needed alongside the manuscript:
+- Data loss divides each trajectory's squared error by its initial squared norm.
+- Validation selects the lowest three-frame mean relative initial-norm error,
+  evaluated at step 1 and every 10 steps; reported metrics use that checkpoint.
+- GF uses 32 fixed rollout times (three observed, 29 future times rounded up
+  onto the data grid) and 24 random spatial points per state.
+- GF residual is divided by its detached value at step 101. Its weight ramps
+  from step 101 to 200 up to 1e-4. This normalization is absent from the paper's
+  displayed loss formula and should be clarified there.
+- Reported full-domain RelRMSE aggregates squared norms over test trajectories
+  before taking the square root. Window averages include all saved times,
+  not just the three supervised frames. Standard deviations use ddof=0.
 
-For a small CPU smoke reproduction:
+Extrapolation RelRMSE (%): LDNet 238.34 ± 81.92; learned SSV 4.48 ± 0.84;
+learned SSV + energy 4.11 ± 0.90; oracle SSV 4.48 ± 0.88;
+oracle SSV + energy 4.09 ± 0.90.
 
-```bash
-DEVICE=cpu bash scripts/reproduce_small.sh
-```
-
-To reproduce the complete 150-run matrix sequentially on one GPU:
-
-```bash
-DEVICE=cuda:0 bash scripts/run_matrix.sh
-```
-
-The command is restart-safe because completed runs are skipped. The full matrix
-is much more expensive than the smoke test. Multi-GPU users can schedule
-`scripts/run_one.sh` over the grid in `configs/heat_loop.json`.
-
-The full experiment grid is documented in `configs/heat_loop.json`. Generated
-datasets, checkpoints, and raw outputs are intentionally excluded from Git.
-Aggregated metrics are provided in `results/summary/aggregate.json`.
-
-## Repository layout
-
-```text
-configs/          experiment matrix
-figures/          paper-ready aggregate figures
-results/summary/  compact numerical summaries
-scripts/          data generation, training, and plotting
-tests/            mathematical identity tests
-```
-
-## Scope
-
-This repository currently provides a controlled heat-equation prototype. The
-known PDE and analytic energy are used only for data generation and post-hoc
-interpretation, never as training targets.
-
-The reported benchmark uses the same expanding comparison window
-`|x| <= 4.5 sqrt(1+t)` for every method. This exponent is not supplied to the
-learned SSV transform, but the window itself is a shared benchmark geometry
-prior. A full-domain ablation should accompany claims of completely unknown
-scaling.
+See `docs/reproduction_audit.md` for preservation and dependency details.

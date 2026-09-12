@@ -11,3 +11,6 @@ outputs/
 !artifacts/pretrained/*.pt
 
 data/*.json
+
+# Anonymous source export
+dist/

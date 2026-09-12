@@ -1,0 +1,14 @@
+{
+  "seed": 7,
+  "alpha_init": 0.583517223120353,
+  "beta_init": 0.22781667550358792,
+  "gamma_init": 1.0,
+  "alpha": 0.5001377463340759,
+  "beta": 0.49963006377220154,
+  "best_epoch": 5000,
+  "train_loss": 1.2856543207817595e-06,
+  "valid_loss": 1.9006590719072847e-06,
+  "gamma_mean": 2.7770442962646484,
+  "gamma_mae_vs_oracle_diagnostic": 0.008997026830911636,
+  "gamma_correlation_oracle_diagnostic": 0.9998690615910538
+}

@@ -1,0 +1,1137 @@
+[
+  {
+    "path": "artifacts/pretrained/scale.pt",
+    "bytes": 2830,
+    "sha256": "6c3f5d3ab1424c8093c84871ebfe7aa874cf38bfd0600c795371fe00df042780"
+  },
+  {
+    "path": "data/single_gaussian_heat_fixed_domain_v1.npz",
+    "bytes": 30940679,
+    "sha256": "9b315d447060f7aa82e895c2cbdb2e1e22e14b7f60d0a3e72ce00d9eec4990bb"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1f96a6f4252ad03fd049739b50f896e120d8d5f483e2587ded19cc3311b2434b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/history.json",
+    "bytes": 108588,
+    "sha256": "70ab4ea4a4a0e3222c784359606354b9723f61ddb98b75f6e34e4f5d907a10d3"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/model.pt",
+    "bytes": 202193,
+    "sha256": "8416be719633aecbcd0a3c24535e3b0f06b1ac754e1c788fadd2a114266e2b07"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "b2239cc7002917039130407b093ec51f69eba5df893a5fbca01193a68f6feb0a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "99bc902cdd1cd068e33c197ee62f876b04bb043b6bffe42740a50da736f3b7d2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "8bb18fec9dcd2446d9c223b30e2ae0940aed11bfe912c4df904f8c67d9e49287"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/summary.json",
+    "bytes": 2863,
+    "sha256": "1505c4e098730ba4648e11b91c7f66bcc09b2809f0b8fe2b57a676d827591ec7"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed0/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "a4526e26547021c1f5fa54a17c42adbf108195be49da1efc672c9e95a0f2d446"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/history.json",
+    "bytes": 108480,
+    "sha256": "6cba6d657ffb1e9074e329ebe2164256e5bd996e62d67fa378adec8e468259b3"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/model.pt",
+    "bytes": 202193,
+    "sha256": "583c5a1d08167df2816211bfe3cc6f8e2904328f6a7fde9036b43927c866bbf7"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "61e9c8b449089024d2c4c2fe3edc46716f16b542301d59965f1c50e1fed79b1d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "444d8b5868d85a1538c559763e4c13271a85c6f31fe332c594b127ec4ca276f5"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c420893bcec9516de2fb603ee015c981a40ab891f82c4552197a24a11fd0f369"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/summary.json",
+    "bytes": 2864,
+    "sha256": "df27ffc1ce9c3c9e54baf89c013ea3e591cf663c52d97f9945524b9d3edc92e3"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed1/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "7228b80d484fb97080bf946e0d8add134b30aa73204016327d21cd5edbec3416"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/history.json",
+    "bytes": 108635,
+    "sha256": "c0fc5fc29ee1bd390c31b3c032f912f507dfa9085453c3f14cfc0fa9480b0256"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/model.pt",
+    "bytes": 202193,
+    "sha256": "69395a8a09c530b8292f97ce2fcb89b6aec8e81fbf30578e5c321451b7fae5d6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1c76244bdc05cce7b59fcba48145a30bd7f5ecd9ad17ed00e65b1884a210ac30"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "2ff35e4d97685d8b50dc983896629e6461efd02f7323b8ac98453e8e3ffdbaf1"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "b437f6bbb26f6ae9f1af6363a8c95df79c5d4622f3a3451c310067ced9aa5a52"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/summary.json",
+    "bytes": 2864,
+    "sha256": "85f19635111ed24d2ac36e4240d525e5d22870a25d8baa1bbc3c680b1dfe6530"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed2/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "46b0b6cfe15a437ae6100e4fb6b7f051d619e24cee1a1273676706b99d051305"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/history.json",
+    "bytes": 108519,
+    "sha256": "4e957089a2175a2160cd0faa4fdaf126cd1e61fbb59a3c93516d20a4bebfafee"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/model.pt",
+    "bytes": 202193,
+    "sha256": "bfef79800ba9ef1e5c56841f2b5b4e1bbcba5d8212914290ceaa73184530b331"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c4b6dcda4e953d1901c157cb088209e26a541b9a5a0129815dabc6e24116ad09"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "41a85703c956634c3c0f4ec26867ff9ef92d93f658f19cb2c26cc83242124584"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "dd7807df3b1c35a28396d0853f0055bf59ff8b9929bf63e5c8f9c7d03193fbb1"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/summary.json",
+    "bytes": 2862,
+    "sha256": "7ba3fa47cf7631b50332af60e94e1a7901b3fc7dfbbca24708a6c648ce998e61"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed3/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "cb26304f62529918a3b70d7a109c474e625190677334192da4ec87eb55c810ab"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/history.json",
+    "bytes": 108631,
+    "sha256": "93a87c853d30247b6ca2f7f2f8e8956d11ee100db016f197946ea82279e741e3"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/model.pt",
+    "bytes": 202193,
+    "sha256": "2a8809bf2e52e6a529e411cf3ca22c320208d802d848d1a748b3c3cfe918fcdb"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "506f3f6ea9671d0821ad91571bce535b49c1748576c7d6686fb555bd3fa1ab15"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "9c043e565973b9caa9c857a80f5c03d4a6ca1d4229f3b993ee11d832fa1bd4da"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "45a7dfac6c4c3bca80b4062743e6cf4c52213cb5b5c6a668fde765124ad8120f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/summary.json",
+    "bytes": 2863,
+    "sha256": "5d25f448b226d4cd7b141653de0d82818882755d27d8b44996f134de3609ac4a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv/n32/seed4/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "cf4ac4fd7903f1a33db11e299e7d8021df9af9e5005d1cb10e5cdd64c9d1f683"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/history.json",
+    "bytes": 119062,
+    "sha256": "4a4441aed5bafd8a5d244a4e6820de304033a722744be39eaf54393cc8a145a2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/model.pt",
+    "bytes": 202193,
+    "sha256": "e9fedeb261be64346a4054c6dca70ed24ecab791d211d143682e5c669bcce3fc"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "17ed3b95beceb47810cdc1c5eb48653413407318aae00a172b92aa233cc55d92"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "ad7078e2143ff32a2db045cd1bd8ebe60dc70da1d4e666a0ac04c1433b5d1b50"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "04a8af1bb8151b6207ab18436bad10b4cdb955242a6f6aeaaa38b2b8121ab929"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/summary.json",
+    "bytes": 2883,
+    "sha256": "81ad6269001a01591e89763dba4aded140f6b5318e453c40f3d238632d084c7c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "0bbeacd46d35f2005dbd500062b7a237a483093a47cb833617e1ebb9496d98a9"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/history.json",
+    "bytes": 119046,
+    "sha256": "7541e04190ecdf8b28286c0e61ef2068faf4c15d4f2f15ac4775a4c79b89fc47"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/model.pt",
+    "bytes": 202193,
+    "sha256": "aaf9f47accdbeae7267a167a1a367fa005c3a957ac27612d6b5f828ee0d5dc6d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "a902c89cc7f8607cc7db0720dcf6e763ccce57688c33c4e5a4fdd1d88aa7211e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "a47be3e2cee6474434ea66c2610e738bbea3311224d8b9b619c0fe9e8c267666"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "68c06781ad85e86aa7c9d0ae751bdb1526bd9f3a0cb965e882101cec15436798"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/summary.json",
+    "bytes": 2883,
+    "sha256": "7a1a2d31428f574ea968661585c753972f3f5c3a5a2f6ca8a06fe2ee6c51ab01"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed1/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "89bdf109d96ea115739baf96202cdebbe774e8021074a54e2ca37994253fecd8"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/history.json",
+    "bytes": 119009,
+    "sha256": "f745fb37629448f9cfd57f32ab1ff973b9b19177cbd7502a802df532b26c478c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/model.pt",
+    "bytes": 202193,
+    "sha256": "d34af89f165d75cfa3a3023341dc85d32b717085d200122bc6414e6500c583ae"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "b731428528423130046dd4aa00697cbe4670e713fb2d47be3d7d5d51482723a6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "2831e2eaddeb5d637ebcbc652a05e6033806d229e889a07431b493c3ea5c6e76"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "99d95afb2b914d4d13ea603b247a22daca1ea27d414d4b96b77a5a82b996744d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/summary.json",
+    "bytes": 2881,
+    "sha256": "b418312039d06fea32f959f1518bf2b62782231eaf815878b031b9505f633b5d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed2/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "df48a4f52fdba3ea80aedab8aeb86f697ea3869ba102efc99f1068229f890583"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/history.json",
+    "bytes": 118990,
+    "sha256": "f5d37de7be7398b99819bcc11f25010f19eadea982f849fbedcdd94e7aed5260"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/model.pt",
+    "bytes": 202193,
+    "sha256": "3b46099b0cb0c41a831616f490117435c11d90a90a789771c46d7d55995b9eee"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "be12863e00ff1952451d595604a0a844c7447eb81bb90a90b59014c969b8ade1"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "600fa6abd3bd19e1005e23a822e4485cb62576f06a83e68e1b38cc1d27d9b564"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "242553fef90c5bea9ed36eb3cedca23ae3dda27a077a88aba1735ff1e2c73a8b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/summary.json",
+    "bytes": 2881,
+    "sha256": "a22a891e049e75cdcde595ca2b2c3e67c4410e0f940c0fe9b3d22df827f96e7a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed3/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "a1e6706c141f154e7b5bfdd0bbe3dfdce7a178173ba59f98ab74608610c9afb2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/history.json",
+    "bytes": 119044,
+    "sha256": "90ab1c1401eaac1917217c4db17c67736987c26ed63d1522a5e4effec5349eca"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/model.pt",
+    "bytes": 202193,
+    "sha256": "3a1222d53b5c4a176fde74129e9803ddd5660e9dcff840b8f2eebb1f2858fb4f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c50b177a5b90e8f15ddc69a411691a7bb8669026afee4caaf9d054aa4b1f1269"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "532b4b0bee91aeec28dac63f06ab2ad2d313ea3709a2370a7285c23fef67fa8e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "3cde3bc07ae087c4d486fa05abe8e18ac166e7593aa6dedef857e1d16593cac7"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/summary.json",
+    "bytes": 2884,
+    "sha256": "09c137a8e0cb3e64adfe6c2264f0904769d451354f8d55793c1553cc889f1484"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed4/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_energy_seed0.log",
+    "bytes": 106225,
+    "sha256": "ccfffdeed5c07c00c4f36dbdda295bda8af354b44992bd66a42104af529f513e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_energy_seed1.log",
+    "bytes": 106209,
+    "sha256": "6574319813c21158ca5e1c558564753b023981cb052b7e195b316173b6b563a4"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_energy_seed2.log",
+    "bytes": 106170,
+    "sha256": "a2d6bc1ed558f2129cd8e0316d05ffa7cb7ee0becfd58a3034555aa5fc7315d6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_energy_seed3.log",
+    "bytes": 106151,
+    "sha256": "73d1e86d4997f2a65b8a6ae8792cb779116d7f19b29bd784387b66877a4ed6e2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_energy_seed4.log",
+    "bytes": 106208,
+    "sha256": "47b0dd890d2bd912f9161565975eca3735f6f24622bb2b3da991f2af786810ed"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_seed0.log",
+    "bytes": 95731,
+    "sha256": "be97fe45de1ce03d5653c2a9aca7dbb2e77b14e57ed9ba78577fa4936aae2702"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_seed1.log",
+    "bytes": 95624,
+    "sha256": "d6aa5f877bf8a81710b7bccb4deeee3e7bce72b488654e1aea5625f96ff0d0a6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_seed2.log",
+    "bytes": 95779,
+    "sha256": "1c180d179eae507d5028aebb859ca9efbc0e5f3f8fb1e58d165845cc4e191090"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_seed3.log",
+    "bytes": 95661,
+    "sha256": "7cb48651879148af4c9b310da48bce4f1f8bf72087cdc582cc321e58cd9720a2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/learned_ssv_seed4.log",
+    "bytes": 95774,
+    "sha256": "9fc7c75a502a4f12a2140d9bfe3511aac0be85b3d78e451beab9b7a2715e0030"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_energy_seed0.log",
+    "bytes": 96845,
+    "sha256": "052033507c907d61751d209c7a5eaf5ecd87e441f4ae43702ab3b1b73505c88b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_energy_seed1.log",
+    "bytes": 96774,
+    "sha256": "6df1da8165fafbde0de260c52d92a2131f667c9d6e07b1fa1aad77085009cf3b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_energy_seed2.log",
+    "bytes": 96774,
+    "sha256": "e6a22fae28d59c9bee14b2b6c6c8770129153045dc00fcf3bb8b762493d75658"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_energy_seed3.log",
+    "bytes": 96741,
+    "sha256": "0c9ec4ad488366c57aad61ff0150a5629926b1856849a1e6701260f5339a79e1"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_energy_seed4.log",
+    "bytes": 96812,
+    "sha256": "c0acaec8807bf543fd4c522befa0a2e5ef14d0ddfa1615e60d89a1f827aceffc"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_seed0.log",
+    "bytes": 86344,
+    "sha256": "41fa4548e014796e67937be0d111fa007f15fdcd979d5acfa61c89e28b6a29d0"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_seed1.log",
+    "bytes": 86245,
+    "sha256": "e67bc8d804b87f66129cd6b9e90015de52273ee3b71000d987fd1d985f38b72c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_seed2.log",
+    "bytes": 86300,
+    "sha256": "5510240ac6b1184e046ef24a0175c956cf74b5e17e4526d0b19f2489708b6806"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_seed3.log",
+    "bytes": 86165,
+    "sha256": "3b5ab4c32b593c46c2d19f1fe789e537e7f49f140ba56b4f5fb4f4d30fa96a94"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/oracle_ssv_seed4.log",
+    "bytes": 86303,
+    "sha256": "4670f37fef0739227645dccb3d673e68de70c783597e36dd0180e15c798254dd"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/physical_seed0.log",
+    "bytes": 86125,
+    "sha256": "61e4d33fed160425a7da4d90813ff967094122473b538ecd3d2e50632fedc81c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/physical_seed1.log",
+    "bytes": 86303,
+    "sha256": "6a7afb10312554aa8b0f1ca28a7e8e1fc9c28d7af6348f22474389d059620217"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/physical_seed2.log",
+    "bytes": 86218,
+    "sha256": "5184cdb450911b23f123120abbac43ab97d04ef497877efa54df7d3525c3bfa0"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/physical_seed3.log",
+    "bytes": 86239,
+    "sha256": "cd38c8eae6d437727e4936e5a3b04e5dd313163e466124dfce7d582889b9fad6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/logs/physical_seed4.log",
+    "bytes": 86344,
+    "sha256": "11d09a3c9ed3abf6087355c690a46c95266cfd848964dd319fd421dd680cb8d0"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "46176254c55233b95540716b55e35df0e8e4554e84b84b0cf48b2df7ac806a37"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/history.json",
+    "bytes": 99296,
+    "sha256": "70143e209d40091dd2e209f9ff04c2f3c1ebaf4c244a61d938230188825a1ad1"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/model.pt",
+    "bytes": 200495,
+    "sha256": "1cc08c3ed6fd16fb3bd66c637ad2372a3be98bd04844c571a3f2a597e652ec5a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "bef9ea4c55fe08cc77b37bdc673b409185c5ea5c314e0f461bc2736dfb58004b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "232dcd2cba009d378b946fec2197f4cc7a99dc106d8f11c390ac643ebe50513a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "e8f11aea83ff22032ebb8bf822491268bfdd1661d31ace1a7becd0f43a4d1b65"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/summary.json",
+    "bytes": 2768,
+    "sha256": "6c74db35a1dd3433f0ffc52cf1da5ed4ad117a7366c87653ffbdb5b597da86c0"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed0/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "e4a114afef4ad1bfee253605dfa24e61f714513debcf90110fb39846f713b34e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/history.json",
+    "bytes": 99198,
+    "sha256": "fc9278e4b51c0d8b9d81b2660fa99ad83de1ea9319a1b4d6efc82e24ddc610f6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/model.pt",
+    "bytes": 200495,
+    "sha256": "5a64bd96fea61d2ba059fe894a5204124e91d85644595e2d425f5a6fa66334a7"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "28d5024e880f58a19961d1ab3b6a90c3b3e3c61ccd3b1c83c8ef31803234f651"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "cea2b6396d91eb3221588ee9e12982da17e5bdefc72882ebd95adea2f84001a6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "624fcd49c6f102859f1df80b36581a378e58cb8e480f8c531616cc347cbd1a21"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/summary.json",
+    "bytes": 2767,
+    "sha256": "c684686d6b3497df535cd0f1da9e7eb009ccb0566bb6bba669640d81b84a81b2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed1/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "e6b5cf42980e0c118b84469e9f4c2f9db4bf3a2d51d76d00dd1528163e98dd5d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/history.json",
+    "bytes": 99250,
+    "sha256": "62b5e561bf305f72b3f520f2b42e26ba2ca73f94daaa06497964817bafc14181"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/model.pt",
+    "bytes": 200495,
+    "sha256": "94088df9f2f82953854dbb01b11b1d3e889de2b8e352c5a7682eba3d30bab2eb"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1d1f8166d33b1644566cfea0cfefe205a97e625351cf6e0a59a553b867ceb952"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "431b6a4ab4016c7c16cccad84882730f849dbda21d3d52d3f9acad73f6a8d80c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "dc945b021069e2afee3a78f4e5b403831a5b9cf2f6f9158e223e158cb6c12303"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/summary.json",
+    "bytes": 2770,
+    "sha256": "38b740cd6ae06fba9ce3d763dc9e7ccc532f4701c1619e6dca6425d04e2c0b9b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed2/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "99b3b623382691fec56b09fc01f6a0fb5e10697713524d21d3059488b7cc7085"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/history.json",
+    "bytes": 99118,
+    "sha256": "b62b4792fcb3f40af13204265e590c8657bcdf34267cc6c715b6b51eb2ce508a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/model.pt",
+    "bytes": 200495,
+    "sha256": "62c66e3a410ee0c78d4420363e38c29b183c4e8dd35a593e0ba47150e53a32f3"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "731b117acb41fc4b5a989513912d8b2958aa94ea689b75ee548b10aa1ad5de10"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c35501fa8406e855ecebbb7172f3b26b22a922ea0b92a69a217d69d728da1b73"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1f848686b8dbfa5fc27ae32cf2d44925b9207637ed3736e403bc41d9b3fc18ba"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/summary.json",
+    "bytes": 2767,
+    "sha256": "e1f3097f768a7dd87f00fddf9fac2eae6d485dda7f5e9a975961f33dbfe6edb5"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed3/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1320e4c132bca4d7aa287d7b0ad4d92cbae7b0467fe48e953cec401665ec5aca"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/history.json",
+    "bytes": 99256,
+    "sha256": "c3359802978d8cc068231d4ccf3fc9f003019c4e67a530f6d3327f2597c452e7"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/model.pt",
+    "bytes": 200495,
+    "sha256": "7edd776f7f0b7cd1cc8d1a158bea1a04adb0d6c1b932e7651ce4a3b1047408fe"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1c38a1951dc6d587d6512c8de75502c08b8c51d53348cfb7e3b8028769453e0d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "e3baf1b11fdac10213a9b1349e4e56c93724ccda91d42b548afe1afa900c97c5"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "f4ed02c189738f875919d892de9505a22b656d37f090786db302113487d75814"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/summary.json",
+    "bytes": 2767,
+    "sha256": "b473cfc9976ef08da5a82fe5dd6517424e2db5a1d387292c713652438d005f43"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv/n32/seed4/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "5b06c2427293705787b0f596c94f77725ffc30732b260c34e99c9ec3af9e0bfb"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/history.json",
+    "bytes": 109774,
+    "sha256": "9091134f3f0ef2e2f8437d4bd27df90a1ce414da8f12716620734822725b0012"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/model.pt",
+    "bytes": 200495,
+    "sha256": "1e792bb72f31f3599967fc596fb5f2fda31d55fa00987eaf17aaf5f10b4eb8a9"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "f5e177e892d45274418e5a79d56e59b1e3bd8c2bdb5afc5c5cdebcb7d6dc765a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "7740ad9e92409dc490fba6fce75b4c82cfdb3da134673faf69b32ee7d4595075"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "4f9ed5075abce7e3ad0729b3d79732eea0dc4c064d6cf0cd9447ce763d503473"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/summary.json",
+    "bytes": 2791,
+    "sha256": "23763968d82419626df1acb96581b4020befb3254f709c8e73623888406641d6"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed0/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "297f8cbe57339e4cd1d608354aec175caa04d0e804c9153f0be1e93043abf59a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/history.json",
+    "bytes": 109706,
+    "sha256": "5bbef0ec3e05907ccb8dce8bc24a9d1dfd5ade8672e4ab61dc10798d54c3fe07"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/model.pt",
+    "bytes": 200495,
+    "sha256": "0ea87a7ed528e0dba02669789002e0b51ecdd59dffebd4cab59c935a6c3c4d43"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "9dc80b226c5ae1212b38985b71dc50107a78cb4d7b2d40cb4a3ac2c02ce3aa0b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "247e65bcd0335d2b80d986128f5798096c9d84bb2faf1c6b5851cf052da6e0fa"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "a827295bd66fcc3b310aed0cdbd85231df7ca137b265310dbbcc5711567c3a1f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/summary.json",
+    "bytes": 2788,
+    "sha256": "232654d9c95e03025085b7282d071939ed1c08f46ea8affd89df08bdca93e60d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed1/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "01ff7123085d9e187b1743825c70a7d81bf053ddaf7ef3677acda52b1ca0f0f8"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/history.json",
+    "bytes": 109706,
+    "sha256": "23b8c732fcead996f51c5587e9d0dae6afeef9a2dbc8c51421071aedb86b6a51"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/model.pt",
+    "bytes": 200495,
+    "sha256": "0c1c07256697b48ebce83b0863b88a3f918c240fdffb209abdd284dc42aa8e5f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "0ada2c2404791aa28defe99f3fa7558f924158216d7a5ada8a2b289c2bb56c0d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "386c77a02466e7544ffb8bf35bbe7c84f97bff84424940f9a471e29283511566"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c2532a75a569f6e5d67e31b2efd47ae74de034001e36d2e184b0cb89523c5e3c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/summary.json",
+    "bytes": 2788,
+    "sha256": "22745d4fb9fe7680a40dfab4d866aa43a82fb0f8f346e683de1ce5026d876d2e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed2/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "4003106f513ee7040e94d46bd9e148d47685a5cffe157324d230d1b219403fa0"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/history.json",
+    "bytes": 109674,
+    "sha256": "1848397b014edf6a1d9cbde58d10027b4682e36f7b1aeee50b31a4acc159529e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/model.pt",
+    "bytes": 200495,
+    "sha256": "75910aa997f4d6e84cf002e5909c1085dabd33d0f5963297a34194021afb008d"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "6f038f952cbeba029ae4601cd370133b3589a39c088ffd53b7ead5d3acdc4e59"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "45351cbccbd546e6fa53914be2ac9be98021ff5bbc61b65a560f2ef381b10c59"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "efef273d86c833f50a9da84d7e76d061da670dd3740b5debbfa1dc0e5e3a5e45"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/summary.json",
+    "bytes": 2787,
+    "sha256": "d6c7c17cb58fbf6bb0563482516372badb2d63507aa91f2bb800f6ac70361b1a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed3/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "1a3f31acf7091a7a7df01c4fc4147c941e94cb84f97870013cf28a66e46b670c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/history.json",
+    "bytes": 109743,
+    "sha256": "c06ec5d5db977550a5e9f37ae40ecc8c6ca80cddf297d42c2abbc2d862f6b72f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/model.pt",
+    "bytes": 200495,
+    "sha256": "d07f6b0aa4198e7ea1aee0b8fdb6b54dc7d4570b28cc6134e45f041532128b2f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "d50ac02f167b234fe0110fb03d388e4b1731f95f77596a5ad1ed054c8350e7bc"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "b41fe5ac6a95f0f571ac0bb0c6efe35a34dc1bbaff31a355054e4b43ae7aa193"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "272cdd870fad7e88f9d00a61ee34eac5702d689dc2f91883e0cfb5b0dbe41e01"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/summary.json",
+    "bytes": 2789,
+    "sha256": "8b34ce0ef142bb7293cf1e451af2c8aa5d6d2536bcf9afe86d48d074dafd7b91"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/oracle_ssv_energy/n32/seed4/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "e17ebae6f24f69e02605cf2022b900d35c0595208a1c50714b94e082f04312d8"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/history.json",
+    "bytes": 99094,
+    "sha256": "56a205e17e054d95567bd0eef5ce6b0a51029d0b860efd2ed335d01b59e1790a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/model.pt",
+    "bytes": 200495,
+    "sha256": "d934bd605844c7036f3d0883e798de9debb4a4e0397082ac974658f0e6a628be"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "9cc16860fd7d3eb5197785e10620032342424c4002840657cdbb5bdd8a9d83e8"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "fc13b6efe20a205ff869197d9e4dea8109e6e1eb1b7c2f6646af136a523aa126"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c33b0c23fa89dd3687efe8d01ec7c9ebe15f550aab137b2a5af7a9f3fa65a05e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/summary.json",
+    "bytes": 2751,
+    "sha256": "b3fdcb88999f6c01b669583bdfc7f7c1a604cfd410bc8dc2df02c9501992f637"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed0/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "8ef3f086a01246f0ef635cb922bfec43068f5ed506069d2fa483c9104e5fd47a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/history.json",
+    "bytes": 99270,
+    "sha256": "15d197f6ad2b1ad70521e66c5732b0f591e8eb7d78371ac9555a2205c0f3bd7c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/model.pt",
+    "bytes": 200495,
+    "sha256": "3d120eb126179fcb1f0dd7c1f78d521f5e595d50fd8cd077e17faa1c5f29f44f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "36d214f718be0454855af43b88e3e966d0b68df28d867daf1141bbb849decd81"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "9be5a0cbd993e4ed5e9efa214dacd1cfddbd1790808c0963413f4c6a60807b25"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "5b18e5f411143466ca7cd4b84babcb10c68b6b3d28e27d6c6d72ec708a1e4363"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/summary.json",
+    "bytes": 2753,
+    "sha256": "7a26e788b6d4e71dcab49bf34752cf71a9961b265cbbeae78a09e10f328a00f2"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed1/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "bf005de70c4492e48c1952db1747fb737c2bd023dea706361f0b6e68b2afc55a"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/history.json",
+    "bytes": 99182,
+    "sha256": "779f20d63628711261a86aa660888c60df069b84e20e0beeb6935498599bee14"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/model.pt",
+    "bytes": 200495,
+    "sha256": "f5b72e6d20f411c7bd8f9410a1357ee00559f1e81cb35741c60540b5e28e00d4"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "407325957226cb5383add282374a02d0ad3971346b6d2ee8469fd6a03b1dbcfb"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "64ce67edf19ec327189f8ade90e6f592cba38bf558654190834866333648954b"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "f06e1c87d00bc8777d29d02658fb8634ea7903e0fc552f7db551bdcaab628f0e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/summary.json",
+    "bytes": 2756,
+    "sha256": "53536b121ef259c3e57f2e5a242f6fb7bab8b587e1f2487034d296c88da6ff4c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed2/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c9ccdcc2b82b0f7fc4db56ab1384a9f9d23a7a18f66f2a967b1e17b7bf642c60"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/history.json",
+    "bytes": 99203,
+    "sha256": "72ba4a21430eed78349ba49502804df8976890b0d706607a3a59546b62e8e2f1"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/model.pt",
+    "bytes": 200495,
+    "sha256": "6ac001746074088c972d2f782795ffcfae181d1d7edf671735386f83f5943f97"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "e2f23de6fee76a6ad1af86984dcd4dd897ec1957180223f6d62cf19232ae660c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "325fcae8c9381c05adeaa9b91000cca1cd7512bf7506d1a8576b7bc7adf14f2e"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "87eb3c2a6e3880e414ef010a8e328c37f268a6dca6e086057f80e88430504c8c"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/summary.json",
+    "bytes": 2756,
+    "sha256": "21754ffb30d19978170cc9702ceff83283b0a2c2968ba2cc3a6cc916704603bf"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed3/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/full_relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "2940c85fae78175f2069fc7ea9678b0248ca5d17c5804ab966eb070d9cf3df96"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/history.json",
+    "bytes": 99310,
+    "sha256": "858aa0d95b5e46fad1231a45349978cb8de788765f57a4996f849610fc419543"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/model.pt",
+    "bytes": 200495,
+    "sha256": "58ab1994d14fdca3c12e4d0d2ca4a97cdd0ae33c29ddf9879b0b219e4042fe60"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/nerror_full_vs_time.npy",
+    "bytes": 932,
+    "sha256": "63318126b89e5586f516ccd8f43a4f6602b6493af43e70ee99d4ed4918856e73"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/oracle_support_nerror_vs_time.npy",
+    "bytes": 932,
+    "sha256": "3ea8bcec9368b2977d32f1a6019058c0c73ca690de5fd5f0844b67af69f1d64f"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/relrmse_vs_time.npy",
+    "bytes": 932,
+    "sha256": "c84d07476d9e4c7efdabf4582067c9a2f3804a1ddc8b1d93e7de2b8e57f45b00"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/summary.json",
+    "bytes": 2754,
+    "sha256": "147c9861eb4231622cdacebad0c8f8d6eb823a9cf456891028c3736741947cdb"
+  },
+  {
+    "path": "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/physical/n32/seed4/time.npy",
+    "bytes": 932,
+    "sha256": "5e3891cb394f051ba37c5bc812bedf6d299647509303baef689faa608c38a545"
+  }
+]

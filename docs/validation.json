@@ -1,0 +1,25 @@
+{
+  "data_regeneration": "exact array equality for all npz members",
+  "smoke_methods": [
+    "physical",
+    "learned_ssv",
+    "learned_ssv_energy",
+    "hand_ssv",
+    "hand_ssv_energy"
+  ],
+  "energy_smoke_steps": 102,
+  "scale_refit_smoke": {
+    "steps": 2,
+    "restarts": 1
+  },
+  "final_checkpoints_reevaluated": 25,
+  "final_figures_regenerated": true,
+  "chain_rule_assertion": "passed via direct invocation; pytest not installed",
+  "full_3000_step_retraining": false,
+  "environment": {
+    "python": "3.10.18",
+    "numpy": "2.2.6",
+    "torch": "2.5.1+cu121",
+    "matplotlib": "3.10.6"
+  }
+}
