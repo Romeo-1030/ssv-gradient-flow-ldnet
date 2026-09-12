@@ -14,6 +14,20 @@ The compact `results/summary/aggregate.json` contains all 25 runs, 201-point
 error curves, selected epochs, and mean/population standard deviations.
 Plotting this file requires neither data nor trained LDNet checkpoints.
 
+To run CPU inference without training:
+```bash
+python scripts/generate_data.py --out data/single_gaussian_heat_fixed_domain_v1.npz
+python scripts/predict.py
+```
+This loads the supplied final learned-SSV + local-energy seed-0 checkpoint,
+including its learned scale, predicts all 32 test trajectories at all 201 times,
+and checks the entire error curve against the published seed-0 results.
+Outputs in `outputs/inference/` are `metrics.json`, `predictions.npz`, and
+`prediction.png`. No separate scale fitting or training is performed.
+Expected seed-0 RelRMSE: observed 1.9758%, extrapolation 2.7504%, final 3.7990%.
+These are one seed's scores, not the five-seed averages in the paper.
+The other 24 final models are not included in this source release.
+
 To repeat training on GPU 0 (each command trains five seeds):
 ```bash
 bash scripts/run_final3000_protocol.sh 0 physical
@@ -29,7 +43,7 @@ python scripts/plot_final_training_diagnostics.py
 Set `PYTHON` to select a Python executable. Data and full training outputs are
 ignored by Git. The supplied `artifacts/pretrained/scale.pt` is the original
 selected scale checkpoint; it is frozen in both learned-SSV methods.
-Full final checkpoints are retained locally under
+All 25 final checkpoints are retained locally under
 `outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine`.
 
 Optional scale refitting:

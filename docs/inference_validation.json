@@ -1,0 +1,17 @@
+{
+  "method": "learned_ssv_energy",
+  "seed": 0,
+  "device": "cpu",
+  "test_trajectories": 32,
+  "prediction_shape": [
+    32,
+    201,
+    256
+  ],
+  "observed_percent": 1.9757749404647904,
+  "extrapolation_percent": 2.75040977278152,
+  "final_percent": 3.7990380022495294,
+  "max_curve_absolute_difference": 3.2017878570655967e-08,
+  "reference_check": "passed",
+  "training_performed": false
+}

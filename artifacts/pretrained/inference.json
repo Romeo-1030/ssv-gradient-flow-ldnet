@@ -1,0 +1,18 @@
+{
+  "method": "learned_ssv_energy",
+  "seed": 0,
+  "selected_epoch": 3000,
+  "sha256": "e9fedeb261be64346a4054c6dca70ed24ecab791d211d143682e5c669bcce3fc",
+  "model": {
+    "nx": 256,
+    "mode": "learned_ssv_energy",
+    "rep_dim": 24,
+    "latent": 16,
+    "width": 128,
+    "modes": 33,
+    "physical_extent": 16.0,
+    "ssv_extent": 4.5,
+    "use_gamma": true,
+    "oracle_gamma": false
+  }
+}

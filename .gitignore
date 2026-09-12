@@ -7,7 +7,7 @@ outputs/
 *.pt
 *.log
 
-# One small, fixed-seed checkpoint is part of the reproducible release.
+# Scale and one final inference checkpoint are part of the release.
 !artifacts/pretrained/*.pt
 
 data/*.json

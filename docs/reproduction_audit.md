@@ -28,3 +28,8 @@ as reconstructed. The GF normalization omitted in the paper is documented in REA
 
 Git history/remotes may contain identity information. This working tree is intended
 for a fresh anonymous repository; its existing .git directory is not anonymized.
+
+Inference addendum: artifacts/pretrained/learned_ssv_energy_seed0.pt and inference.json
+provide a final model for scripts/predict.py. The supplied scale is embedded in
+this model. A standalone source copy generated data and verified the full test
+error curve without training; see inference_validation.json.
