@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """Physical and learned-SSV shape evolution for the latest frozen-SSV model."""
+import argparse
 from pathlib import Path
 import sys
 import matplotlib
@@ -13,8 +14,15 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from train_fourier_longtime_gf import ShiftedSSVLDNet  # noqa: E402
 
 DATA = ROOT / "data/single_gaussian_heat_fixed_domain_v1.npz"
-CKPT = ROOT / "outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine/learned_ssv_energy/n32/seed0/model.pt"
-OUT = ROOT / "figures/final3000_solution_shapes"
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument("--checkpoint", type=Path,
+                    default=ROOT / "artifacts/pretrained/learned_ssv_energy_seed0.pt")
+parser.add_argument("--out", type=Path,
+                    default=ROOT / "outputs/figures/final3000_solution_shapes")
+args = parser.parse_args()
+CKPT = args.checkpoint
+OUT = args.out
+OUT.parent.mkdir(parents=True, exist_ok=True)
 
 d = np.load(DATA)
 x_np, t_np, u_np, params_np = d["x"], d["t"], d["u"], d["params"]

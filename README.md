@@ -1,7 +1,11 @@
 # Self-Similar LDNet with Local Energy
 
-Anonymous reproduction code for sparse-frame heat-equation extrapolation.
-The release follows the final3000 experiment: five methods, five matched seeds,
+Reproduction code for *Self-Similar Latent Dynamics Network with Local Energy
+for Sparse-Frame Heat-Equation Extrapolation* (ML4PS 2026). This repository contains the single-Gaussian workflow and the compact two-Gaussian reproducibility files.
+
+## Single-Gaussian experiment
+
+The single-Gaussian study follows the final3000 experiment: five methods, five matched seeds,
 32 training trajectories, and three observed frames at 0, 0.25, 0.5.
 
 Run commands from this directory with Python 3.10+:
@@ -43,8 +47,9 @@ python scripts/plot_final_training_diagnostics.py
 Set `PYTHON` to select a Python executable. Data and full training outputs are
 ignored by Git. The supplied `artifacts/pretrained/scale.pt` is the original
 selected scale checkpoint; it is frozen in both learned-SSV methods.
-All 25 final checkpoints are retained locally under
-`outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine`.
+The launcher writes checkpoints to
+`outputs/ssv_gamma_frozen_ldnet_v5_final3000_cosine`. The shape plotting script
+uses the bundled seed-0 checkpoint by default.
 
 Optional scale refitting:
 ```bash
@@ -72,9 +77,8 @@ Implementation details needed alongside the manuscript:
   evaluated at step 1 and every 10 steps; reported metrics use that checkpoint.
 - GF uses 32 fixed rollout times (three observed, 29 future times rounded up
   onto the data grid) and 24 random spatial points per state.
-- GF residual is divided by its detached value at step 101. Its weight ramps
-  from step 101 to 200 up to 1e-4. This normalization is absent from the paper's
-  displayed loss formula and should be clarified there.
+- GF residual is divided by its detached value at step 101. The denominator is floored at 1e-12 and held fixed. The weight is zero through
+  step 100 and ramps from step 101 to 200 up to 1e-4.
 - Reported full-domain RelRMSE aggregates squared norms over test trajectories
   before taking the square root. Window averages include all saved times,
   not just the three supervised frames. Standard deviations use ddof=0.
@@ -83,4 +87,19 @@ Extrapolation RelRMSE (%): LDNet 238.34 ± 81.92; learned SSV 4.48 ± 0.84;
 learned SSV + energy 4.11 ± 0.90; oracle SSV 4.48 ± 0.88;
 oracle SSV + energy 4.09 ± 0.90.
 
-See `docs/reproduction_audit.md` for preservation and dependency details.
+## Two-Gaussian experiment and GF ablation
+
+The camera-ready two-Gaussian experiment uses six labeled frames through 1.25, a shared
+scale rate of 4 in both SSV arms, and four matched seeds with evaluation
+through 10. The four arms cross SSV and GF. In the single-Gaussian study,
+compare each SSV training mode with its corresponding energy mode to reproduce
+the matched GF comparisons.
+
+The [two-Gaussian workflow](experiments/two_gaussian_gamma4/README.md)
+contains the configuration, per-seed curves, terminal prediction slices,
+and plotting and verification commands. The separately supplied
+`non_gaussian_gamma4_t10_repro.zip` includes checkpoints and the complete
+historical training and Frozen Latent replay inputs.
+
+See the
+[single-Gaussian audit](docs/reproduction_audit.md) for preservation details.
